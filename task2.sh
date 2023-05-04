@@ -10,6 +10,7 @@ do
   do
     if [[ $line == $line2 ]]; then
       has_eq=true
+      break
     fi
     done < $2
 done < $1
